@@ -385,146 +385,212 @@ s<!DOCTYPE html>
 </section>
 
 <!-- Skills Section -->
-<!-- Skills Section -->
-<section id="skills" class="py-12 bg-gray-100 section">
-    <div class="container mx-auto px-4">
-        <h2 class="text-3xl font-bold text-center mb-10">Skills & Expertise</h2>
+<section id="skills" class="py-20 bg-gray-100 section">
+    <div class="container mx-auto px-6">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Skills & Expertise</h2>
 
-        <!-- Skill Category -->
-        <div class="bg-white p-4 rounded-lg shadow-sm mb-4">
-            <h3 class="font-semibold text-lg mb-2 text-blue-600">Programming</h3>
-            <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-2 gap-y-1 text-gray-700 text-sm">
-                <li>Python</li>
-                <li>R</li>
-                <li>Julia</li>
-                <li>MATLAB</li>
-                <li>C/C++</li>
-                <li>SQL</li>
-            </ul>
-        </div>
+        <!-- Skills Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-        <div class="bg-white p-4 rounded-lg shadow-sm mb-4">
-            <h3 class="font-semibold text-lg mb-2 text-blue-600">AI & Machine Learning</h3>
-            <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-2 gap-y-1 text-gray-700 text-sm">
-                <li>Machine Learning</li>
-                <li>Deep Learning</li>
-                <li>Reinforcement Learning</li>
-                <li>Generative AI</li>
-                <li>Prompt Engineering</li>
-                <li>Fine-tuning (PEFT, LoRA)</li>
-                <li>RAG Pipelines</li>
-                <li>Agentic Workflows</li>
-            </ul>
-        </div>
+            <!-- Programming -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md relative">
+                <div class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-code text-6xl ai-icon"></i>
+                </div>
+                <span class="project-badge ai-badge">Programming</span>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-4">Languages & Tools</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• Python</li>
+                        <li>• R</li>
+                        <li>• Julia</li>
+                        <li>• MATLAB</li>
+                        <li>• C/C++</li>
+                        <li>• SQL</li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="bg-white p-4 rounded-lg shadow-sm mb-4">
-            <h3 class="font-semibold text-lg mb-2 text-blue-600">GenAI & Agents</h3>
-            <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-2 gap-y-1 text-gray-700 text-sm">
-                <li>LangChain</li>
-                <li>LangGraph</li>
-                <li>LlamaIndex</li>
-                <li>OpenAI Function Calling</li>
-                <li>Vector Stores</li>
-                <li>Multi-agent Systems</li>
-                <li>Tool Integration</li>
-                <li>Knowledge Graphs</li>
-                <li>Conversational Memory</li>
-            </ul>
-        </div>
+            <!-- AI & ML -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md relative">
+                <div class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-brain text-6xl ds-icon"></i>
+                </div>
+                <span class="project-badge ds-badge">AI & ML</span>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-4">Machine Learning</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• Machine Learning</li>
+                        <li>• Deep Learning</li>
+                        <li>• Reinforcement Learning</li>
+                        <li>• Generative AI</li>
+                        <li>• Prompt Engineering</li>
+                        <li>• Fine-tuning (PEFT, LoRA)</li>
+                        <li>• Agentic Workflows</li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="bg-white p-4 rounded-lg shadow-sm mb-4">
-            <h3 class="font-semibold text-lg mb-2 text-blue-600">Frameworks</h3>
-            <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-2 gap-y-1 text-gray-700 text-sm">
-                <li>TensorFlow</li>
-                <li>PyTorch</li>
-                <li>Scikit-Learn</li>
-                <li>Hugging Face</li>
-                <li>Pandas</li>
-                <li>NumPy</li>
-                <li>SciPy</li>
-                <li>OpenCV</li>
-                <li>Streamlit</li>
-                <li>FastAPI</li>
-            </ul>
-        </div>
+            <!-- GenAI & Agents -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md relative">
+                <div class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-robot text-6xl ai-icon"></i>
+                </div>
+                <span class="project-badge ai-badge">GenAI & Agents</span>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-4">Generative AI & LLMs</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• LangChain, LangGraph</li>
+                        <li>• LlamaIndex</li>
+                        <li>• Vector Stores (FAISS, Weaviate, Chroma)</li>
+                        <li>• Multi-agent Systems</li>
+                        <li>• Tool Integration</li>
+                        <li>• Knowledge Graphs</li>
+                        <li>• Conversational Memory</li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="bg-white p-4 rounded-lg shadow-sm mb-4">
-            <h3 class="font-semibold text-lg mb-2 text-blue-600">MLOps & DevOps</h3>
-            <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-2 gap-y-1 text-gray-700 text-sm">
-                <li>Airflow</li>
-                <li>MLflow</li>
-                <li>TFX</li>
-                <li>Kubeflow</li>
-                <li>SageMaker</li>
-                <li>Docker</li>
-                <li>Kubernetes</li>
-                <li>Grafana</li>
-                <li>Prometheus</li>
-            </ul>
-        </div>
+            <!-- Frameworks & Libraries -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md relative">
+                <div class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-cubes text-6xl ds-icon"></i>
+                </div>
+                <span class="project-badge ds-badge">Frameworks</span>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-4">Frameworks & Libraries</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• TensorFlow, PyTorch</li>
+                        <li>• Scikit-Learn, Hugging Face</li>
+                        <li>• Pandas, NumPy, SciPy</li>
+                        <li>• OpenCV, Streamlit, FastAPI</li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="bg-white p-4 rounded-lg shadow-sm mb-4">
-            <h3 class="font-semibold text-lg mb-2 text-blue-600">Cloud & Data Platforms</h3>
-            <ul class="grid grid-cols-2 sm:grid-cols-3 gap-x-2 gap-y-1 text-gray-700 text-sm">
-                <li>AWS</li>
-                <li>Azure</li>
-                <li>GCP</li>
-                <li>Snowflake</li>
-                <li>Databricks</li>
-                <li>Spark</li>
-                <li>ETL</li>
-                <li>Power BI</li>
-            </ul>
-        </div>
+            <!-- MLOps & DevOps -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md relative">
+                <div class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-cogs text-6xl ai-icon"></i>
+                </div>
+                <span class="project-badge ai-badge">MLOps</span>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-4">MLOps & DevOps</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• Airflow, MLflow, TFX</li>
+                        <li>• Kubeflow, SageMaker, Vertex AI</li>
+                        <li>• Docker, Kubernetes</li>
+                        <li>• Grafana, Prometheus</li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="bg-white p-4 rounded-lg shadow-sm mb-4">
-            <h3 class="font-semibold text-lg mb-2 text-blue-600">Signal & Image Processing</h3>
-            <ul class="grid grid-cols-2 sm:grid-cols-3 gap-x-2 gap-y-1 text-gray-700 text-sm">
-                <li>Image Segmentation</li>
-                <li>Motion Analysis</li>
-                <li>OCR</li>
-                <li>Adaptive Filtering</li>
-                <li>SLAM</li>
-                <li>DSP</li>
-                <li>Radar</li>
-                <li>Telecom</li>
-            </ul>
-        </div>
+            <!-- Cloud & Data Platforms -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md relative">
+                <div class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-cloud text-6xl ds-icon"></i>
+                </div>
+                <span class="project-badge ds-badge">Cloud</span>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-4">Cloud & Data Platforms</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• AWS, Azure, GCP</li>
+                        <li>• Snowflake, Databricks, BigQuery</li>
+                        <li>• Spark, ETL, Power BI</li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="bg-white p-4 rounded-lg shadow-sm mb-4">
-            <h3 class="font-semibold text-lg mb-2 text-blue-600">Mathematics</h3>
-            <ul class="grid grid-cols-2 sm:grid-cols-3 gap-x-2 gap-y-1 text-gray-700 text-sm">
-                <li>Statistics</li>
-                <li>Probability</li>
-                <li>Optimization</li>
-                <li>Differential Equations</li>
-                <li>Dynamical Systems</li>
-            </ul>
-        </div>
+            <!-- Signal & Image Processing -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md relative">
+                <div class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-video text-6xl ai-icon"></i>
+                </div>
+                <span class="project-badge ai-badge">Signal & Vision</span>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-4">Signal & Image Processing</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• Image Segmentation</li>
+                        <li>• Motion Analysis, OCR</li>
+                        <li>• Adaptive Filtering</li>
+                        <li>• SLAM, DSP</li>
+                        <li>• Radar, Telecom</li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="bg-white p-4 rounded-lg shadow-sm mb-4">
-            <h3 class="font-semibold text-lg mb-2 text-blue-600">Tools</h3>
-            <ul class="grid grid-cols-2 sm:grid-cols-3 gap-x-2 gap-y-1 text-gray-700 text-sm">
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>LaTeX</li>
-                <li>Excel</li>
-                <li>Arduino</li>
-                <li>Raspberry Pi</li>
-            </ul>
-        </div>
+            <!-- Mathematics & Statistics -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md relative">
+                <div class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-square-root-alt text-6xl ds-icon"></i>
+                </div>
+                <span class="project-badge ds-badge">Mathematics</span>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-4">Mathematics & Statistics</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• Statistics, Probability</li>
+                        <li>• Optimization</li>
+                        <li>• Differential Equations</li>
+                        <li>• Dynamical Systems</li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="bg-white p-4 rounded-lg shadow-sm mb-4">
-            <h3 class="font-semibold text-lg mb-2 text-blue-600">Languages</h3>
-            <ul class="grid grid-cols-2 sm:grid-cols-3 gap-x-2 gap-y-1 text-gray-700 text-sm">
-                <li>French (Bilingual)</li>
-                <li>English (B2)</li>
-                <li>Spanish (A2)</li>
-            </ul>
+            <!-- Tools & Software -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md relative">
+                <div class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-tools text-6xl ai-icon"></i>
+                </div>
+                <span class="project-badge ai-badge">Tools</span>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-4">Tools & Software</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• Git, GitHub, LaTeX</li>
+                        <li>• Excel, PowerPoint, Canva</li>
+                        <li>• Arduino, Raspberry Pi</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md relative">
+                <div class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-award text-6xl ds-icon"></i>
+                </div>
+                <span class="project-badge ds-badge">Certifications</span>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-4">Certifications</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• TensorFlow Developer</li>
+                        <li>• GANs, Generative AI</li>
+                        <li>• Advanced CV, NLP, MLOps</li>
+                        <li>• IBM AI Engineering</li>
+                        <li>• Scrum Master</li>
+                        <li>• Google Project Management</li>
+                        <li>• AI Agent Developer</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="project-card bg-white rounded-lg overflow-hidden shadow-md relative">
+                <div class="h-48 overflow-hidden bg-gray-100 flex items-center justify-center">
+                    <i class="fas fa-language text-6xl ai-icon"></i>
+                </div>
+                <span class="project-badge ai-badge">Languages</span>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-4">Languages</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li>• French (Bilingual)</li>
+                        <li>• English (B2)</li>
+                        <li>• Spanish (A2)</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
-    <!-- Projects Section -->
 <section id="projects" class="py-20 bg-white section">
     <div class="container mx-auto px-6">
         <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Data Science & AI Projects</h2>
