@@ -73,6 +73,16 @@ s<!DOCTYPE html>
             background-color: rgba(16, 185, 129, 0.2);
             color: #10b981;
         }
+        /* Animation d'image flottante */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        .float-animation {
+            animation: float 3s ease-in-out infinite;
+        }
     </style>
 </head>
 <body class="font-sans text-gray-800 bg-gray-50">
@@ -124,8 +134,9 @@ s<!DOCTYPE html>
                 </div>
                 <div class="md:w-1/2 flex justify-center">
                     <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
-                        <img src="https://raw.githubusercontent.com/Ilyass-Dahaoui/dh.github.io/main/ilyas_dahaoui_pic.jpg" alt="Ma photo"
-                             alt="Ilyas Dahaooui" class="w-full h-full object-cover">
+                        <img src="https://raw.githubusercontent.com/Ilyass-Dahaoui/dh.github.io/main/ilyas_dahaoui_pic.jpg " 
+                         alt="Ma photo"
+                         class="w-full h-full object-cover float-animation">
                     </div>
                 </div>
             </div>
